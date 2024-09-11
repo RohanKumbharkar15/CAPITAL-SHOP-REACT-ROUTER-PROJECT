@@ -1,0 +1,90 @@
+.s1-bg{
+    background-image: url('./assets/h1_hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.s2-bg{
+    background-image: url('./assets/h1_hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.h4{
+    font-size: 25px;
+    color: red;
+    font-style: italic;
+}
+.h3{
+    font-size: 30px;
+    color: black;
+}
+h5 a{
+   
+    text-decoration: none;
+   font-style: italic;
+    color: rgb(235, 140, 8);
+    /* margin-top: ; */
+    border-bottom: 2px solid orange;
+}
+h5 a:hover{
+    color: red;
+    
+}
+.shadow:hover{
+   transform: skew(-1deg);
+   transition-timing-function: ease-in-out;
+   transition-duration: 0.6s;
+}
+.home-div{
+    margin-top: -70px;
+}
+.div-2{
+    color: red;
+}
+.div-2:hover{
+    color: blue;
+    /* background-color: green; */
+}
+.stest{
+    background-color: #F3EAD8;
+}
+.slnew{
+    background-color: #F6F6F6;
+}
+.read{
+    color: black;
+}
+.read:hover{
+    color: red;
+}
+@media (min-width:768px) {
+    .s1-bg,.s2-bg{
+        height: 600px;
+    }
+    .h4{
+        font-size: 40px;
+        color: red;
+        font-style: italic;
+    }
+    .h3{
+        font-size: 50px;
+        color: black;
+    }
+}
+@media (min-width:992px) {
+    .s1-bg,.s2-bg{
+        height: 700px;
+    }
+    .h4{
+        font-size: 40px;
+        color: red;
+        font-style: italic;
+    }
+    .h3{
+        font-size: 50px;
+        color: black;
+    }
+}
